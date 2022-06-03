@@ -1,0 +1,19 @@
+{
+    "dependencies": {
+        "express": "^4.17.3",
+        "mongoose": "^6.2.3"
+    },
+    "devDependencies": {
+        "dotenv": "^16.0.0",
+        "nodemon": "^2.0.15"
+    },
+    "name": "package_of_rishikesh",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+        "startNodemon": "nodemon server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": ""
+}

@@ -1,0 +1,25 @@
+GET http://localhost:3000/subscribers/
+
+
+###
+POST http://localhost:3000/subscribers/
+Content-Type: application/json
+
+{   "name": "Music maker guy",
+    "subscribedToChannel": "Full Masti music"
+}
+
+###
+PATCH  http://localhost:3000/subscribers/62166bbec1b1ca059d2fead0
+Content-Type: application/json
+
+{
+    "name":"Music lover",
+    "subscribedToChannel": "Tseries"
+}
+
+###
+DELETE http://localhost:3000/subscribers/62166f0aff8f2c72f16a034d
+
+###
+GET http://localhost:3000/subscribers/62166e8fff8f2c72f16a0340
